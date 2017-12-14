@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            .animation {
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                display: block;
+                position: absolute;
+                left: 0px;
+                animation-name: boxmove;
+                animation-duration: 4s;
+            }
+            @keyframes boxmove {
+                from { left: 0px; transform: translateX(0) rotate(0deg); }
+                to { left: 200px; transform: translateX(50%) rotate(45deg); }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Animation Example</h1>
+        <div class=animation>Moving Box</div>
+    </body>
+</html>
