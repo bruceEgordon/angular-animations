@@ -6,6 +6,8 @@ import {style, animate, transition, state, trigger} from '@angular/animations';
     template: `
         <h2>Simple Animation Demo</h2>
         <input type="button" (click)="boxMove()" value="Move Box">
+        <br>
+        <p>Magical box</p>
         <div [@divstate]="state_value" class="animatediv"></div>
     `,
     styles: [`
